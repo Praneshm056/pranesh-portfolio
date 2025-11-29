@@ -1,0 +1,119 @@
+ 
+ 
+PRANESH M 
+LinkedIn: www.linkedin.com/in/pranesh-m-552a12225 | GitHub: https://github.com/Praneshm056 
+Email: praneshm056@gmail.com | Phone Number: 9944584453 | Karur 
+CAREER 
+OBJECTIVE 
+ To work in an organization that allows me to enhance my skills and knowledge in embedded 
+systems while contributing to the organization’s growth through innovative and efficient solutions. 
+WORK 
+EXPERIENCE 
+ Currently undergoing technical training program – Emertxe Certified Embedded Professional 
+(ECEP) at Emertxe Information Technologies (http://www.emertxe.com) Bangalore 
+TECHNICAL 
+SKILLS  
+ • Programming Languages:  
+o Shell Scripting 
+o Advanced C programming 
+o OOP using C++  
+o Data structures in C 
+• Embedded platforms: 
+o Linux (Ubuntu) 
+o PIC18F4520 board 
+• Development environment and tools: 
+o Dev environment: Vim, Makefiles, MPLAB 
+o Compilers: GCC, XC8 
+COURSE WORK  • Microprocessor 
+• Digital Electronics 
+• Digital Signal Processing 
+EDUCATION  • B.E (ECE), Kongu Engineering College, KEC, 7.36 (CGPA), 2021-2025 
+• Class – XII, Cheran Matric Higher Secondary School, 79.14%, 2021 
+• Class – X, Cheran Matric Higher Secondary School, 73%, 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+PROJECTS AT EMERTXE 
+ 
+Project number:1 
+ 
+Title Inverted Search 
+Project brief Inverted Search is a C -based project that creates an inverted index from multiple text 
+files. It maps each word to the Hash table and files , along with the count of the word 
+and file, enabling fast and efficient word searching across files. 
+Technologies used Advanced C - File Handling, Hash Tables, Linked Lists, and Dynamic Memory 
+Allocation, Command line arguments 
+Key challenges & Learnings  ✓ Handling file parsing and word extraction efficiently while managing case 
+sensitivity and duplicates. 
+✓ Implementing hash tables and linked lists for optimized data storage and quick 
+search operations. 
+✓ Faced segmentation faults while handling main and sub -node addresses and 
+resolved them by understanding the correct usage of NULL, thereby enhancing 
+knowledge of data structures, modular design, problem -solving, and memory 
+management in C. 
+ 
+Project number:2  
+Title Arbitrary Precision Calculator 
+Project brief Arbitrary Precision Calculator is a C -based project that performs mathematical 
+operations on very large numbers beyond the standard data type limits. It uses arrays or 
+linked lists to represent numbers and supports operations like addition, subtraction, 
+multiplication, and division with high accuracy. 
+Technologies used Advanced C – Pointers, Linked Lists, Structure, Dynamic Memory Allocation, 
+Command line arguments 
+Key challenges & Learnings  ✓ Developed custom logic to perform arithmetic operations on large numbers without 
+relying on built-in data types. 
+✓ Learned to manage memory efficiently and represent data effectively using linked 
+lists. 
+✓ Gained a strong understanding of number handling, algorithm optimization, and 
+precision control in C programming. 
+ 
+Project Number:3  
+Title Image Steganography using LSB 
+Project brief The objective of the project was to securely embed a secret text file within a BMP 
+image. The process involved encoding the length of the secret text followed by 
+embedding the text data into the least significant bits (LSB) of the image bytes. During 
+decoding, the length was first extracted, and the hidden text was then retrieved bit by 
+bit, ultimately reconstructing the original secret message. 
+Technologies used Advanced C – File operations, Pointers, Bitwise operations, Functions, Makefiles, 
+Command line arguments  
+Key challenges & Learnings  ✓ Gained understanding of image pixels and BMP file headers through detailed 
+literature study. 
+✓ Implemented data embedding and extraction techniques ensuring that the original 
+image properties remained unchanged. 
+✓ Faced issues in bitwise operations during LSB implementation by mistakenly 
+altering the MSB instead of the LSB, which helped in gaining a better 
+understanding of bit manipulation and binary data handling in image processing.  
+Project number:4  
+Title Address Book 
+Project brief The Address Book project is a C -based application that stores and manages contact 
+information such as name, phone number, and email. It allows users to add, search, edit, 
+delete, and display contacts with proper input validation and modularized design for 
+efficient data handling. 
+Technologies used Advanced C – Pointers, Structures, File Handling, Command line arguments 
+Key challenges & Learnings  ✓ Faced challenges in implementing input validation to maintain data integrity for 
+names, phone numbers, and emails, improving understanding of error handling.  
+✓ Encountered difficulties in managing file handling and ensuring proper data 
+storage and retrieval, which strengthened skills in data persistence. 
+✓ Learned the importance of modular programming and code reusability for building 
+a well-structured and easily maintainable project. 
+ 
+ 
+ACADEMIC PROJECTS 
+ 
+Title IoT-based Fire Alarming System using GSM Module 
+Project brief The IoT-based Fire Alarm System that integrates GSM communication with sensor -
+based fire detection. The system enhances conventional fire alarms by sending SMS 
+and call alerts to predefined contacts when a fire is detected, ensuring immediate 
+notification even when users are away from the site. 
+Technologies used Embedded Systems, IoT, GSM, Sensor Technology, Arduino IDE 
+Key challenges & Learnings  ✓ Calibrating the MQ -2 and LM35 sensors with Arduino was tricky at first, but it 
+helped us understand sensor behaviour and fine-tune readings. 
+✓ Faced GSM module issues due to power and command errors, which we fixed by 
+studying the datasheet and ensuring a stable power supply. 
+✓ The system worked differently in real-time compared to simulation, teaching us to 
+adjust thresholds and improve our code for reliable results. 
+ 
+ 
