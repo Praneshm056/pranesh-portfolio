@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Hello, I'm <span class="highlight">Pranesh M</span></h1>
+            <p class="subtitle">Embedded Systems Engineer & C Programmer</p>
+            <div class="social-links">
+                <a href="https://github.com/Praneshm056" target="_blank" class="social-icon">GitHub</a>
+                <a href="https://www.linkedin.com/in/pranesh-m-552a12225" target="_blank"
+                    class="social-icon">LinkedIn</a>
+            </div>
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+        </div>
+        <div class="hero-shape"></div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am an aspiring Embedded Systems Professional currently undergoing the Emertxe Certified
+                        Embedded Professional (ECEP) training. My goal is to enhance my skills in embedded systems and
+                        contribute innovative solutions to organizational growth.</p>
+                    <p>I have a strong foundation in Advanced C Programming, Data Structures, and Embedded Platforms
+                        like Linux and PIC microcontrollers. I am passionate about solving complex problems and
+                        optimizing code for performance.</p>
+                    <p><strong>Education:</strong> B.E (ECE), Kongu Engineering College (2021-2025) - CGPA: 7.36</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>Advanced C, C++ (OOP), Shell Scripting, Data Structures</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Embedded Systems</h3>
+                    <p>Linux (Ubuntu), PIC18F4520, Microprocessors, Digital Electronics</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & IDEs</h3>
+                    <p>Vim, Makefiles, MPLAB, GCC, XC8, VS Code</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Core Concepts</h3>
+                    <p>File Handling, Pointers, Bitwise Operations, Memory Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image placeholder-gradient"></div>
+                    <div class="project-info">
+                        <h3>Inverted Search</h3>
+                        <p>A C-based project creating an inverted index from multiple text files using Hash Tables and
+                            Linked Lists for efficient searching.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image placeholder-gradient"></div>
+                    <div class="project-info">
+                        <h3>Arbitrary Precision Calculator</h3>
+                        <p>Performs mathematical operations on very large numbers beyond standard data type limits using
+                            arrays and linked lists.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image placeholder-gradient"></div>
+                    <div class="project-info">
+                        <h3>Image Steganography</h3>
+                        <p>Securely embeds secret text within a BMP image using LSB (Least Significant Bit) modification
+                            and bitwise operations.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image placeholder-gradient"></div>
+                    <div class="project-info">
+                        <h3>IoT Fire Alarm System</h3>
+                        <p>Integrates GSM communication with sensor-based fire detection to send SMS and call alerts for
+                            immediate notification.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">I'm currently open to new opportunities. Feel free to reach out!</p>
+            <div class="contact-details">
+                <p>Email: <a href="mailto:praneshm056@gmail.com"
+                        style="color: var(--primary-color);">praneshm056@gmail.com</a></p>
+                <p>Phone: 9944584453</p>
+                <p>Location: Karur</p>
+            </div>
+            <br>
+            <a href="mailto:praneshm056@gmail.com" class="btn primary-btn">Send Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
